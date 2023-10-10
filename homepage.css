@@ -3,25 +3,27 @@ body
     background-image: url('Assets/bg.jpg'); 
     background-repeat: no-repeat;
     background-size: cover;
+    margin:0;
 }
-
 .container {
-    position: absolute;
+   
     margin: 55px;
     width: 956px;
     margin-left: 266px;
+    
   }
 
   .topnav {
     overflow: hidden;
     background-color: #333;
+    padding: 20px;
   }
 
   a {
-    float: left;
+    float: none;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px;
     text-decoration: none;
     font-size: 17px;
   }
@@ -30,33 +32,37 @@ body
 
 .banner
 {
-    background-color: rgba(43, 42, 42, 0.5);
+    background-color: rgba(128, 126, 126, 0.5);
     padding-top: 30px;
 }
 
-h1{
-  text-align: justify;
+h1
+{
   color: white;
   font-size: 36px;
   letter-spacing: 5px;
-  ;align-items: center;
-  display: flex;
+  font-family:  sans-serif;
   padding-left: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
+  font-family: Trebuchet MS;
 }
 
-.row{
-    width: 100%;
-    background-color: rgba(43, 42, 42, 0.5);
-    padding-top: 30px;
-    column-count: 3;
-    color: #fff;
+.row
+{
+  /* width: 100%;
+  background-color: rgba(7, 7, 7, 0.5);
+  padding-bottom: 30px;
+  margin-bottom: 50px;*/
+  color: #fff; 
+  background: rgba(7, 7, 7, 0.705);
+  display: table;
+}
+
+.column{
+ float: left;
+  width: 28%;
+  padding: 20px;
   
-    
-}
-
-.col{
-    padding: 30px;
     }
 
 P{
@@ -66,17 +72,3 @@ P{
     line-height: 22px;
     
 }
-/* .content2{
-    color: #fff;
-    margin: 10px auto;
-    font-size: 14px;
-    line-height: 22px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.content2{
-    color: #fff;
-    margin: 10px auto;
-    font-size: 14px;
-    line-height: 22px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-} */
