@@ -12,17 +12,24 @@ body
     margin-left: 266px;
     
   }
-
-  .topnav {
+  .logo{
+      width: 156px;
+      position: absolute;
+      margin-left: 10px;
+  }
+  .navbar{
+    margin-left: 150px;
+  }
+    .topnav {
     overflow: hidden;
     background-color: #333;
-    padding: 20px;
+    padding:  30px;
+    align-items: right;
   }
 
   a {
-    float: none;
     color: #f2f2f2;
-    text-align: center;
+    text-align: right;
     padding: 20px;
     text-decoration: none;
     font-size: 17px;
