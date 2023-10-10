@@ -2,6 +2,7 @@ body
 { 
     background-image: url('Assets/bg.jpg'); 
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container {
@@ -16,7 +17,7 @@ body
     background-color: #333;
   }
 
-  .topnav a {
+  a {
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -27,16 +28,55 @@ body
 
 
 
-.banner{
-    background-color: rgba(0,0,0,0.5);
-    padding-top: 100px;
-    margin-bottom: 50px;   
-  
+.banner
+{
+    background-color: rgba(43, 42, 42, 0.5);
+    padding-top: 30px;
 }
 
-p{
-  letter-spacing: 10px;
+h1{
+  text-align: justify;
   color: white;
   font-size: 36px;
+  letter-spacing: 5px;
+  ;align-items: center;
+  display: flex;
+  padding-left: 40px;
+  margin-bottom: 20px;
+}
+
+.row{
+    width: 100%;
+    background-color: rgba(43, 42, 42, 0.5);
+    padding-top: 30px;
+    column-count: 3;
+    color: #fff;
+  
     
 }
+
+.col{
+    padding: 30px;
+    }
+
+P{
+    color: #fff;
+    margin: 10px ;
+    font-size: 14px;
+    line-height: 22px;
+    
+}
+/* .content2{
+    color: #fff;
+    margin: 10px auto;
+    font-size: 14px;
+    line-height: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.content2{
+    color: #fff;
+    margin: 10px auto;
+    font-size: 14px;
+    line-height: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} */
