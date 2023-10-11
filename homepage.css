@@ -12,18 +12,24 @@ body
     margin-left: 266px;
     
   }
+li
+{
+  display: inline;
+  list-style-type: none;
+}
   .logo{
       width: 156px;
       position: absolute;
       margin-left: 10px;
   }
   .navbar{
+    border-radius: 10px;
     margin-left: 150px;
   }
     .topnav {
     overflow: hidden;
     background-color: #333;
-    padding:  30px;
+    padding:  16px;
     align-items: right;
   }
 
