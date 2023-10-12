@@ -48,8 +48,8 @@ body
 {
       width: 218px;
       position: absolute;
-      margin-left: 13px;
-      top:51px
+      margin-left: 20px;
+      top:44px
 }
 
 .navbar
@@ -57,13 +57,13 @@ body
   margin-left: 0px;
   border: 1px solid#5d6266;
   width: 879px;
-  padding: 22px;
+  padding: 16px;
 }
 
 .topnav 
 {
   background-color:  rgba(28, 28, 28, 0.705);
-  padding:  8px;
+  padding:  5px;
   
 }
 .navbar ul
@@ -72,6 +72,7 @@ body
   text-align: center;
   margin: 0;
   padding: 0;
+  margin-left: 20rem;
 }
 
 .navbar li{
@@ -83,32 +84,40 @@ body
 {
   color: #9dcce8;
   text-decoration: none;
-  padding: 20px;
-  font-size: 22px;
+  
+  
+  font-size: 18px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 }
 
 .navbarli a:hover {
   background-color: rgb(196, 196, 204);
 }
+.navbar li a span{
+  color: white;
+}
 
 .banner
 {
   background-color: rgba(128, 126, 126, 0.5);
   padding-top: 30px;
-  display: flex;
+  padding-bottom: 30px;
+  
+  
   
 }
 
-h1
+.banner p
 {
   color: white;
   font-size: 36px;
   letter-spacing: 5px;
   font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
   padding-left: 40px;
-  margin-bottom: 0px;
+  padding-bottom: 10px;
   font-family: Trebuchet MS;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .row
@@ -124,7 +133,7 @@ h1
 
 .column
 { 
-  float: left;
+float: left;
   width: 282PX;
   padding: 19px;
   vertical-align: top;
@@ -145,3 +154,34 @@ P
   line-height: 25px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; ;
 }
+
+/* footer */
+.footer {
+  background-color: #3C5A8E;
+  
+  
+
+  color: white;
+}
+.footer li
+{
+  align-items: center;
+  margin-right: 10px;
+}
+.footer  li a{
+  color: #9dcce8;
+  text-decoration: none;
+  
+  font-size: 16px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  
+}
+.footer ul
+{
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+span{margin-left: 10px;}
