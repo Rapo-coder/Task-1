@@ -1,11 +1,8 @@
-.navcontainer {
+.topnavbar {
   margin:0px 0px 10px;
   font: 14px;
   color: #fff;
-  padding: 2px 7px 2px 2px;
   display: flex;
-  justify-content: end;
-  margin-right: 280px;
 }
 
 nav{
@@ -46,17 +43,15 @@ body
 
 .logo
 {
-      width: 218px;
       position: absolute;
       margin-left: 20px;
-      top:44px
+      top:33px
 }
 
 .navbar
 {
   margin-left: 0px;
   border: 1px solid#5d6266;
-  width: 879px;
   padding: 16px;
 }
 
@@ -69,10 +64,10 @@ body
 .navbar ul
 {
   list-style-type: none;
-  text-align: center;
+  text-align: end;
   margin: 0;
   padding: 0;
-  margin-left: 20rem;
+  /* margin-left: 20rem; */
 }
 
 .navbar li{
@@ -84,8 +79,6 @@ body
 {
   color: #9dcce8;
   text-decoration: none;
-  
-  
   font-size: 18px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 }
@@ -100,11 +93,8 @@ body
 .banner
 {
   background-color: rgba(128, 126, 126, 0.5);
-  padding-top: 30px;
-  padding-bottom: 30px;
-  
-  
-  
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .banner p
@@ -112,7 +102,7 @@ body
   color: white;
   font-size: 36px;
   letter-spacing: 5px;
-  font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  font-family: Calibri (Body); 
   padding-left: 40px;
   padding-bottom: 10px;
   font-family: Trebuchet MS;
@@ -120,26 +110,23 @@ body
   margin-bottom: 0;
 }
 
-.row
+.content
 {
-  /* width: 100%;
-  background-color: rgba(7, 7, 7, 0.5);
-  padding-bottom: 30px;
-  margin-bottom: 50px;*/
+  padding-bottom: 10px;
   color: #fff; 
   background: rgba(7, 7, 7, 0.705);
-  display: table;
+  padding-top: 10px;
+  display: flex;
 }
 
-.column
+.homecontent
 { 
-float: left;
-  width: 282PX;
+ flex: 1;
   padding: 19px;
-  vertical-align: top;
+  display: inline-block;
   
 }
-.column a
+.homecontent a
 {
   color: #9dcce8;
   display: inline;
@@ -158,10 +145,7 @@ P
 /* footer */
 .footer {
   background-color: #3C5A8E;
-  
-  
-
-  color: white;
+  color: rgb(204, 219, 231);
 }
 .footer li
 {
@@ -169,19 +153,21 @@ P
   margin-right: 10px;
 }
 .footer  li a{
-  color: #9dcce8;
+  color: whitesmoke;
   text-decoration: none;
-  
   font-size: 16px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
   
+}
+.footer li Copyright
+{
+color: #9fb4e1;
 }
 .footer ul
 {
   list-style-type: none;
   display: flex;
-  margin: 0;
-  padding: 0;
-  align-items: center;
+  padding: 10px;
+  margin-left: 225px;
 }
 span{margin-left: 10px;}
