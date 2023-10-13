@@ -9,7 +9,7 @@
   display: flex;
   justify-content: end;
 }
-nav ul li:not(:last-child)::after{ 
+nav ul li ::after{ 
   content: "|";
   color: #fff;
   padding: 5px;
@@ -90,7 +90,12 @@ body {
   display: inline;
   margin-right: 10px;
 }
-
+.navbar ul li ::after
+{
+  content: "|";
+  color: #fff;
+  padding: 10px;
+}
 .navbar li a {
   color: #9dcce8;
   text-decoration: none;
