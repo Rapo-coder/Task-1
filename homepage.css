@@ -1,13 +1,7 @@
 .topnavbar {
-  font: 14px;
   color: #fff;
-  padding: 10px;
-  position: absolute;
   top: 0px;
   padding: 0;
-  right: 3px;
-  display: flex;
-  justify-content: end;
 }
 nav ul li ::after{ 
   content: "|";
@@ -17,20 +11,13 @@ nav ul li ::after{
   
 }
 
-nav {
-  border: solid #555;
-  background-color: #3C5A8E;
-}
-
 nav ul {
+  float: right;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-    display: flex;
   background-color:#3D5685;
   padding: 0px 5px 2px;
-  justify-content: center;
-  align-items: center;
+  display: inline-block;
+
 }
 
 nav li {
@@ -44,7 +31,9 @@ nav li a {
   padding: 0px 1px;
   font-family: 'Trebuchet MS';
 }
-
+*{
+  margin: 0PX;
+}
 body {
   background-image: url('Assets/bg.jpg');
   background-repeat: no-repeat;
@@ -54,18 +43,21 @@ body {
 }
 
 .container {
-  margin: 55px;
+  margin: auto ;
   width: 960px;
-  margin-left: 266px;
+  display: flex;
+  flex-direction: column;
 
 }
 
 .logo {
   position: absolute;
-  margin-left: 24px;
-  top: 18px
+  margin-left: 19px;
+  top: 9px;
 }
-
+.main{
+  padding: 10PX;
+}
 .navbar {
   margin-left: 0px;
   border: 1px solid#5d6266;
@@ -83,7 +75,7 @@ body {
   text-align: end;
   margin: 0;
   padding: 0;
-  /* margin-left: 20rem; */
+  margin-left: 1rem;
 }
 
 .navbar li {
@@ -99,7 +91,7 @@ body {
 .navbar li a {
   color: #9dcce8;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 14px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -168,7 +160,6 @@ P {
 
 .footer li a {
   color: whitesmoke;
-  text-decoration: none;
   font-size: 16px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
