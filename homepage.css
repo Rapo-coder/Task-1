@@ -3,27 +3,27 @@
   top: 0px;
   padding: 0;
 }
-nav ul li:not(:last-child)::after{ 
+
+nav ul li:not(:last-child)::after {
   content: "|";
   color: #fff;
   padding: 5px;
   font-size: 14px;
   font-weight: normal;
   line-height: 21px;
-  
+
 }
 
 nav ul {
   float: right;
   list-style-type: none;
-  background-color:#3B5B8A;
+  background-color: #3B5B8A;
   padding: 0px 5px 2px;
   display: inline-block;
   margin-right: 10px;
 }
 
-nav li 
-{
+nav li {
   display: inline;
 }
 
@@ -33,20 +33,22 @@ nav li a {
   font-size: 10px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-*{
+
+* {
   margin: 0PX;
 }
+
 body {
   background-image: url('Assets/bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  font-family:'Trebuchet MS';
+  font-family: 'Trebuchet MS';
   background-color: #4A6BAE;
 
 }
 
 .container {
-  margin: auto ;
+  margin: auto;
   width: 982px;
   display: flex;
   flex-direction: column;
@@ -54,14 +56,16 @@ body {
 
 .logo {
   position: absolute;
- /* margin-left: 19px;*/
+  /* margin-left: 19px;*/
   top: 9px;
 }
-.main{
+
+.main {
   padding: 10PX;
   margin-top: 20px;
 
 }
+
 .navbar {
   margin-left: 0px;
   border: 1px solid#5d6266;
@@ -83,11 +87,12 @@ body {
 .navbar li {
   display: inline;
 }
-.navbar ul li:not(:last-child)::after
-{
+
+.navbar ul li:not(:last-child)::after {
   content: "|";
   color: #fff;
 }
+
 .navbar ul li a {
   color: #9dcce8;
 
@@ -96,13 +101,25 @@ body {
   font-size: 18px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 /* .navbar ul li a:hover 
 {
   border-radius: 10PX;
   background-color: #136885;
 } */
-.navbar ul li a:hover
-{
+.navbar ul li a:hover {
+  color: #fff;
+  border-radius: 10px;
+  background-color: #136885;
+}
+
+/* .navbar ul li service-hover .active {
+  color: #fff;
+  border-radius: 5px;
+  background-color: #49677F;
+} */
+.navbar a.ourservices:hover,
+.active {
   color: #fff;
   border-radius: 10px;
   background-color: #136885;
@@ -123,13 +140,15 @@ body {
   letter-spacing: 13px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 .content {
   padding-bottom: 0px;
   color: #fff;
   background: rgba(7, 7, 7, 0.705);
   display: flex;
 }
-.content-section{
+
+.content-section {
   display: flex;
   border: 1px solid white;
   margin: 3px;
@@ -140,23 +159,28 @@ body {
 .homecontent {
   padding: 19px;
   vertical-align: top;
-  
+
 
 }
-.homecontent img
-{margin-bottom: 15px;}
 
-.img1{
+.homecontent img {
+  margin-bottom: 15px;
+}
+
+.img1 {
   filter: brightness(200%);
 }
 
-.homecontent a 
-{
+.homecontent a {
   color: #9dcce8;
   display: inline;
 }
-#offer{margin-bottom: 10px;
-padding-bottom: 10px;}
+
+#offer {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
 P {
   font-weight: normal;
   font-family: 'Trebuchet MS';
@@ -171,7 +195,7 @@ P {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color:#29416D;
+  background-color: #29416D;
   color: #CAD2EE;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   margin-top: 10px;
@@ -201,10 +225,7 @@ P {
   display: flex;
   padding: 8px;
   margin-left: 0px;
-  
+
 }
 
 /* Services */
-
-
-
