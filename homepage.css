@@ -56,7 +56,6 @@ body {
 
 .logo {
   position: absolute;
-  /* margin-left: 19px;*/
   top: 9px;
 }
 
@@ -95,31 +94,21 @@ body {
 
 .navbar ul li a {
   color: #9dcce8;
-
-  padding: 10PX;
+  padding: 3PX 12px 3px;
   text-decoration: none;
   font-size: 18px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
-/* .navbar ul li a:hover 
-{
-  border-radius: 10PX;
-  background-color: #136885;
-} */
+
 .navbar ul li a:hover {
   color: #fff;
-  border-radius: 10px;
   background-color: #136885;
+  border-radius: 10px;
 }
 
-/* .navbar ul li service-hover .active {
-  color: #fff;
-  border-radius: 5px;
-  background-color: #49677F;
-} */
-.navbar a.ourservices:hover,
-.active {
+.navbar a.ourservices:hover, .active {
   color: #fff;
   border-radius: 10px;
   background-color: #136885;

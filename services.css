@@ -55,7 +55,7 @@ p
     padding: 10px 6px;
     border-top: #5F6474 solid 1px;
     border-bottom: #5F6474 solid 1px;
-    background-color: #1d293b,#11233B;
+    background-color: #10223A;
 }
 .requset-content
 {
@@ -64,10 +64,11 @@ p
 }
 .request-link{
     background-image: linear-gradient(to top,#0A293D,#155D75);
-    color: white;
+    color: #C4E3FF;
     padding-right: 20px;
     padding-left: 20px;
     padding-bottom: 5px;
     border: 1px solid #136885;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 4px;
 }
